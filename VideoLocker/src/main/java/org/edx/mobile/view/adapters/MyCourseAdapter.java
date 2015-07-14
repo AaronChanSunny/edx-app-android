@@ -15,8 +15,11 @@ import com.android.volley.toolbox.NetworkImageView;
 
 import org.edx.mobile.R;
 import org.edx.mobile.core.IEdxEnvironment;
+import org.edx.mobile.model.api.AccessError;
 import org.edx.mobile.model.api.CourseEntry;
+import org.edx.mobile.model.api.CoursewareAccess;
 import org.edx.mobile.model.api.EnrolledCoursesResponse;
+import org.edx.mobile.model.api.StartType;
 import org.edx.mobile.social.SocialMember;
 import org.edx.mobile.util.DateUtil;
 import org.edx.mobile.util.images.ImageCacheManager;
@@ -104,10 +107,11 @@ BaseListAdapter<EnrolledCoursesResponse> {
                 Date startDate = DateUtil.convertToDate(courseData.getStart());
                 String startDt; 
                 Date endDate = DateUtil.convertToDate(courseData.getEnd());
-                String endDt; 
-
-                if (!courseData.isStarted()) {
-                    if(startDate!=null){
+                String endDt;
+                AccessError error = enrollment.getCourse().getCourseware_access().getError_code();
+                if (error.equals(AccessError.StartDateError)) {
+                    StartType type = enrollment.getCourse().getStart_type();
+                    if(type.equals(StartType.TimestampStart)){
                         startDt = getContext().getString(R.string.label_starting_from)
                                 + " - " + dateformat.format(startDate);                 
                         holder.starting_from.setText(startDt);

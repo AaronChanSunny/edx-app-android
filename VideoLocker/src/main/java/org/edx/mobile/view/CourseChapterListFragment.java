@@ -22,9 +22,12 @@ import com.google.inject.Inject;
 import org.edx.mobile.R;
 import org.edx.mobile.base.CourseDetailBaseFragment;
 import org.edx.mobile.interfaces.NetworkObserver;
+import org.edx.mobile.model.api.AccessError;
+import org.edx.mobile.model.api.CoursewareAccess;
 import org.edx.mobile.model.api.EnrolledCoursesResponse;
 import org.edx.mobile.model.api.LectureModel;
 import org.edx.mobile.model.api.SectionEntry;
+import org.edx.mobile.model.api.StartType;
 import org.edx.mobile.model.api.VideoResponseModel;
 import org.edx.mobile.services.VideoDownloadHelper;
 import org.edx.mobile.services.LastAccessManager;
@@ -102,9 +105,10 @@ public class CourseChapterListFragment extends CourseDetailBaseFragment
 
         //Initialize the Course not started text view.
         if (!enrollment.getCourse().isStarted()) {
-            startDate = DateUtil.formatCourseNotStartedDate(enrollment.getCourse().getStart());
-            if (startDate != null) {
-                startDate = "<font color='" + getString(R.color.grey_text_course_not_started) + "'>" + startDate + "</font>";
+            CoursewareAccess error = enrollment.getCourse().getCourseware_access();
+            StartType type = enrollment.getCourse().getStart_type();
+            if (error.getError_code().equals(AccessError.StartDateError) && !type.equals(StartType.NoneStart)) {
+                startDate = "<font color='" + getString(R.color.grey_text_course_not_started) + "'>" + enrollment.getCourse().getStart_display() + "</font>";
                 String courseScheduledText  =  ResourceUtil.getFormattedString(R.string.course_content_available_text,
                         "start_time", startDate).toString();
 
