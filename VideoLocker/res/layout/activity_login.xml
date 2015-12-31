@@ -33,14 +33,14 @@
                     android:layout_marginRight="44dp"
                     android:layout_marginTop="@dimen/logo_margin_top" >
 
-                    <ImageView
-                        android:id="@+id/login_map"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerHorizontal="true"
-                        android:contentDescription="@string/app_name"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/edx_map_login" />
+                    <!--<ImageView-->
+                        <!--android:id="@+id/login_map"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_centerHorizontal="true"-->
+                        <!--android:contentDescription="@string/app_name"-->
+                        <!--android:scaleType="fitXY"-->
+                        <!--android:src="@drawable/edx_map_login" />-->
 
                     <ImageView
                         android:id="@+id/login_logo"

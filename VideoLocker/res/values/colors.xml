@@ -148,4 +148,6 @@
     <color name="edx_grayscale_neutral_dark">#646262</color>
     <color name="edx_grayscale_neutral_base">#A7A4A4</color>
     <color name="edx_grayscale_neutral_light">#D3D1D1</color>
+
+    <color name="splash_light_blue">#2997f3</color>
 </resources>

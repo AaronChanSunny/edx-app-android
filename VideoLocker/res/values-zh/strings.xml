@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">edX</string>
+    <string name="app_name">RuijieMooc</string>
 
     <!-- Common values -->
     <!-- Button to visit course group on facebook -->
     <string name="course_details_fb_group">Official course Facebook group</string>
     <!-- Button to view handouts for course -->
-    <string name="view_handouts">View course handouts</string>
+    <string name="view_handouts">浏览课程讲义</string>
     <!-- Label for list of friends enrolled in a course -->
-    <string name="course_details_friends_in_course">Friends in this course</string>
+    <string name="course_details_friends_in_course">课程好友</string>
     <!-- Button for sharing a link to the course -->
-    <string name="course_details_share">Share</string>
+    <string name="course_details_share">分享</string>
     <!-- Label congratulation user on finishing course -->
-    <string name="course_details_congratulations">Congratulations!</string>
+    <string name="course_details_congratulations">恭喜！</string>
     <!-- Message for user who has successfully completed a certificate course -->
-    <string name="course_details_earned_cert">You\'ve earned a certificate</string>
+    <string name="course_details_earned_cert">已获得证书</string>
     <!-- Header for list of friends in a given course. Argument is a course name -->
-    <string name="friends_in_course">Friends in {courseName}</string>
+    <string name="friends_in_course">{courseName}课程好友</string>
     <!-- Link to web course page -->
-    <string name="open_course_page">Open Course Page</string>
+    <string name="open_course_page">开放课程页面</string>
     <!-- Title of friends in course screen -->
-    <string name="friends_in_this_course">Friends in This Course</string>
+    <string name="friends_in_this_course">该课程好友</string>
 
-    <string name="share_application_title">edX for Android</string>
-    <string name="share_application_link_url">http://www.edx.org</string>
+    <string name="share_application_title">RuijieMooc安卓版</string>
+    <string name="share_application_link_url">http://172.18.86.185</string>
     <string name="share_application_picture_url">https://www.edx.org/sites/default/files/theme/edx-logo-header.png</string>
-    <string name="share_application_description">Free online courses</string>
+    <string name="share_application_description">在线免费课程</string>
 
     <!-- Settings Page -->
 
     <!-- Label for wifi only switch -->
-    <string name="settings_wifi_top">Wi-Fi only download</string>
+    <string name="settings_wifi_top">只允许Wi-Fi状态下载</string>
     <!-- Label explaining what wifi only means in detail -->
-    <string name="settings_wifi_bottom">Only download content when Wi-Fi is turned on</string>
+    <string name="settings_wifi_bottom">只有当Wi-Fi打开时，才进行内容下载</string>
     <!-- Label explaining switch allowing other users to see courses -->
-    <string name="settings_make_courses_visible_top">Make courses visible to friends</string>
+    <string name="settings_make_courses_visible_top">课程好友可见</string>
     <!-- Label explaining switch allowing other users to see courses -->
-    <string name="settings_make_courses_visible_bottom">Allow my friends to see what courses I\'m taking</string>
+    <string name="settings_make_courses_visible_bottom">允许好友查看我正在学习的课程</string>
     <!-- Label for facebook login section -->
     <string name="settings_facebook_login">Facebook login</string>
     <!-- Label for facebook login section. Argument is a user name -->
-    <string name="settings_facebook_login_body_logged_in">Currently logged in as {username}</string>
+    <string name="settings_facebook_login_body_logged_in">当前登录用户：{username}</string>
     <!-- Label for button allowing user to connect a facebook account -->
     <string name="settings_facebook_login_body_logged_out">Log in with your Facebook account</string>
     <!-- Error shown attempting to connect a facebook accoutn fails -->
@@ -49,103 +49,103 @@
     <!-- Status label shown when connecting to facebook -->
     <string name="settings_facebook_login_fetch">Contacting Facebook...</string>
     <!-- Button for connecting a user to their facebook account -->
-    <string name="settings_facebook_login_btn">Log in</string>
+    <string name="settings_facebook_login_btn">登录</string>
     <!-- Button for disconnecting a user from their facebook account -->
-    <string name="settings_facebook_logout_btn">Log out</string>
+    <string name="settings_facebook_logout_btn">注销</string>
 
     <!-- Certificate Page -->
 
     <!-- Button sharing a certificate for finishing a course -->
-    <string name="share_certificate_super">Share your certificate</string>
+    <string name="share_certificate_super">分享你的证书</string>
     <!-- Label providing details for share certificate action -->
-    <string name="share_certificate_sub">tell your friends about your accomplishment</string>
+    <string name="share_certificate_sub">与好友分享成就</string>
     <!-- Tab of tab for certicate for finished course -->
-    <string name="tab_label_certificate">Certificate</string>
+    <string name="tab_label_certificate">证书</string>
 
     <!-- Groups Page -->
 
     <!-- Label on cell in list of groups. Argument is number of members -->
-    <string name="group_list_members">Members {members}</string>
+    <string name="group_list_members">组员：{members}</string>
 
     <!-- Data Usage Dialog -->
     <!-- Alert dialog error message shown when using a feature with a required internet connection -->
-    <string name="need_data">This feature requires an active internet connection.</string>
+    <string name="need_data">该功能需要可用的网络连接。</string>
     <!-- Alert dialog okay button -->
-    <string name="play_data_dialog_OK">OK</string>
+    <string name="play_data_dialog_OK">确认</string>
     <!-- Alert dialog cancel button -->
-    <string name="play_data_dialog_Cancel">Cancel</string>
+    <string name="play_data_dialog_Cancel">取消</string>
 
     <!-- Login Activity Place Holders -->
     <!-- Hint text for login field -->
-    <string name="email_username">User name or e-mail address</string>
+    <string name="email_username">用户名或邮箱</string>
     <!-- Hint text for email address field in reset password dialog -->
-    <string name="email">E-mail address</string>
+    <string name="email">邮箱地址</string>
     <!-- Hint text for password field -->
-    <string name="password">Password</string>
+    <string name="password">密码</string>
     <!-- Button text allowing user to reset their password -->
-    <string name="forgot_password">Forgot your password?</string>
+    <string name="forgot_password">忘记密码？</string>
     <!-- Button initiating login process after user enters credentials like username and password -->
-    <string name="login">Sign In</string>
+    <string name="login">登录</string>
     <!-- Message shown while waiting for action -->
-    <string name="progressText">Please wait....</string>
+    <string name="progressText">请稍等...</string>
     <!-- Message shown while user waits for response to a sign in request-->
-    <string name="signing_in">Signing In...</string>
+    <string name="signing_in">登录中...</string>
     <!-- Message for shown after tapping Sign In -->
-    <string name="error_message">Error Message</string>
+    <string name="error_message">错误信息</string>
     <!-- Generic error during log in -->
-    <string name="error_heading">The following error occurred while logging you in</string>
+    <string name="error_heading">登录过程发生错误</string>
     <!-- Error during log in. -->
-    <string name="login_failed">Please make sure that your user name or e-mail address and password are correct and try again.</string>
+    <string name="login_failed">请确认邮箱或密码，再次尝试。</string>
     <!-- Error logging in without activating account. -->
-    <string name="login_failed_no_grant">This account has not been activated. Check your e-mail for activation instructions.</string>
+    <string name="login_failed_no_grant">该账户未激活，请前往注册邮箱查看激活邮件并激活。</string>
     <!-- Button text allowing a user to go to the register screen -->
-    <string name="new_user">Need an account?</string>
+    <string name="new_user">需要一个新帐号？</string>
     <string name="by_signing_up">By signing in to this app, you agree to the </string>
     <string name="licensing_agreement">edX Terms of Service and Honor Code</string>
-    <string name="login_title">Sign in to edX</string>
+    <string name="login_title">注册RuijieMooc</string>
 
     <!-- Navigation Drawer Labels -->
     <!-- Button text to show user Settings screen -->
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">设置</string>
     <!-- Title of user's course list screen -->
     <string name="label_my_courses">我的课程</string>
     <!-- Title of user's downloaded videos list screen -->
-    <string name="label_my_videos">My Videos</string>
+    <string name="label_my_videos">我的视频</string>
     <!-- Title of Find Courses screen -->
-    <string name="label_find_courses">Find Courses</string>
+    <string name="label_find_courses">查找课程</string>
     <!-- Title of Study Groups screen -->
-    <string name="label_my_groups">My Study Groups</string>
+    <string name="label_my_groups">我的学习小组</string>
     <!-- Button allowing users to send an email for feedback -->
-    <string name="label_submit_feedback">Submit Feedback</string>
+    <string name="label_submit_feedback">提交反馈</string>
     <!-- Toggle switch on state label -->
-    <string name="toggle_turn_on">ON</string>
+    <string name="toggle_turn_on">开启</string>
     <!-- Toggle switch off state label -->
-    <string name="toggle_turn_off">OFF</string>
+    <string name="toggle_turn_off">关闭</string>
     <!-- Logout button label -->
-    <string name="logout">Logout</string>
+    <string name="logout">注销</string>
     <!-- Settings screen title -->
-    <string name="settings_txt">Settings</string>
+    <string name="settings_txt">设置</string>
     <!-- Settings screen title -->
-    <string name="label_version">Version</string>
+    <string name="label_version">版本</string>
     <!-- Button text to show user Settings screen -->
-    <string name="label_settings">My Settings</string>
+    <string name="label_settings">我的设置</string>
 
     <!-- Help Dialog Place Holder messages -->
     <!-- Reset password alert dialog title -->
-    <string name="confirm_dialog_title_help">Reset Password</string>
+    <string name="confirm_dialog_title_help">重置密码</string>
     <!-- Reset password alert dialog message -->
-    <string name="success_dialog_title_help">Password reset e-mail sent</string>
+    <string name="success_dialog_title_help">已发送密码重置邮件</string>
     <!-- Reset password alert dialog title -->
-    <string name="title_reset_password_failed">Reset Password Error</string>
+    <string name="title_reset_password_failed">重置密码错误</string>
     <!-- Label for switch controlling whether users permit downloading using cellular data or only wifi -->
-    <string name="wifi_dialog_title_help">Allow cellular download</string>
+    <string name="wifi_dialog_title_help">开启流量下载</string>
     <!-- Password reset sent succesfully alert -->
     <string name="success_dialog_message_help">We\'ve sent a message with password reset instructions to your e-mail address. 
         If you don\'t see it in the next few minutes, make sure to check your spam folder.</string>
     <!-- Password reset dialog prompt -->
     <string name="confirm_dialog_message_help">Enter the e-mail address for your account, and we\'ll send you instructions to reset your password.</string>
     <!-- Label explaining toggle for cellular data access -->
-    <string name="wifi_dialog_message_help">Allow your device to download videos over your cellular connection when Wi-Fi is not available. Data charges may apply.</string>
+    <string name="wifi_dialog_message_help">允许使用移动网络下载数据，可能产生超额流量费用。</string>
     <!-- Confirmation text for delete video dialog -->
     <string name="delete_dialog_title_help">Confirm Delete</string>
     <plurals name="delete_video_dialog_msg">
@@ -153,55 +153,55 @@
         <item quantity="other">Are you sure you want to delete these videos?</item>
     </plurals>
     <!-- Alert dialog button label -->
-    <string name="delete_successful_dialog_title_help">Delete</string>
+    <string name="delete_successful_dialog_title_help">删除</string>
     <!-- Alert dialog title for users with zero rated data -->
-    <string name="leaving_app_data_title">Leaving the edX App</string>
+    <string name="leaving_app_data_title">离开RuijieMooc</string>
     <!-- Alert dialog content for users with zero rated data -->
     <string name="leaving_app_data_message">If you leave the app, you will no longer be viewing free edX content. Data charges may apply.</string>
 
     <!-- Reset Dialog Fragment Place Holder messages -->
-    <string name="reset_dialog_title">Reset Title</string>
+    <string name="reset_dialog_title">重置标题</string>
     <!-- Title of agreement users must accept to use the app -->
-    <string name="end_user_title">End User License Agreement</string>
+    <string name="end_user_title">终端用户许可协议</string>
 
     <!-- My Courses -->
     <!-- Title of course dashboard screen -->
-    <string name="course_home">Course Home</string>
+    <string name="course_home">课程主目录</string>
     <!-- Row of course on dashboard screen -->
-    <string name="courseware_title">Courseware</string>
+    <string name="courseware_title">课件</string>
     <!-- Row of course on dashboard screen -->
     <!-- NOTE: TODO - not final one -->
     <string name="courseware_subtitle">Access videos and assignments</string>
     <!-- Row of Discussion on dashboard screen -->
-    <string name="discussion_title">Discussion</string>
+    <string name="discussion_title">讨论</string>
     <!-- Row of Discussion on dashboard screen -->
     <!-- NOTE: TODO - not final one -->
-    <string name="discussion_subtitle">Join the conversation</string>
+    <string name="discussion_subtitle">加入会话</string>
     <!-- Row of Handouts on dashboard screen -->
-    <string name="handouts_title">Handouts</string>
+    <string name="handouts_title">讲义</string>
     <!-- Row of Handouts on dashboard screen -->
     <!-- NOTE: TODO - not final one -->
-    <string name="handouts_subtitle">Find important course information</string>
+    <string name="handouts_subtitle">查找重要课程信息</string>
     <!-- Row of announcement on dashboard screen -->
-    <string name="announcement_title">Announcements</string>
+    <string name="announcement_title">公告</string>
     <!-- Row of announcement on dashboard screen -->
     <!-- NOTE: TODO - not final one -->
     <string name="announcement_subtitle">Keep up with the latest news</string>
 
 
     <!-- Title of course outline screen -->
-    <string name="course_outline">Course Outline</string>
+    <string name="course_outline">课程大纲</string>
 
     <!-- Accessible content description of image for a course -->
-    <string name="course_image">Course Image</string>
+    <string name="course_image">课程图片</string>
     <!-- Accessible content description of school code label a course -->
-    <string name="school_code">School Code</string>
+    <string name="school_code">学校代码</string>
     <!-- Accessible content description of course code label for a course -->
-    <string name="course_code">Course Code</string>
+    <string name="course_code">课程代码</string>
     <!-- Accessible content description of course name label field -->
-    <string name="course_name">Course Name</string>
+    <string name="course_name">课程名称</string>
     <!-- Label indicating new course content has been downloaded -->
-    <string name="new_course_content">New Course Content</string>
+    <string name="new_course_content">新建课程内容</string>
     <!-- Label for date when course starts -->
     <string name="label_starting_from">Starting</string>
     <!-- Label for course that has ended -->
@@ -209,58 +209,58 @@
     <!-- Label for date when course is ending -->
     <string name="label_ending_on">Ending</string>
     <!-- List for table listing courses friends are in -->
-    <string name="label_my_friends_courses">My Friends\' Courses</string>
+    <string name="label_my_friends_courses">好友的课程</string>
     <!-- Label on course indicating that user earned a certificate in that course -->
-    <string name="course_banner_certified">Certificate Earned</string>
+    <string name="course_banner_certified">已获得证书</string>
     <!-- Header ror list of users' friends enrolled in a course -->
-    <string name="course_friends_also_enrolled">Friends also enrolled in this course</string>
+    <string name="course_friends_also_enrolled">好友也注册了该课程</string>
 
     <!-- Title for the course filter menu popup -->
-    <string name="course_view_modes">Course View Modes</string>
+    <string name="course_view_modes">课程视图模式</string>
     <!-- Label for the course filter menu popup option for filtering by videos only -->
-    <string name="course_view_mode_videos_only">Videos Only</string>
+    <string name="course_view_mode_videos_only">包含视频</string>
     <!-- Label for the course filter menu popup option for displaying the full course -->
-    <string name="course_view_mode_full_course">Full Course</string>
+    <string name="course_view_mode_full_course">全部课程</string>
 
     <!-- Label for the menu popup for viewing the course on the web -->
     <string name="course_view_on_web">View on Web</string>
 
     <!-- Course Details -->
     <!-- Accessible content description of label for course content -->
-    <string name="course_content">Course Content</string>
+    <string name="course_content">课程内容</string>
     <!-- Accessible content description of label for course name -->
-    <string name="chapter_name">Course Name</string>
+    <string name="chapter_name">课程名称</string>
     <!-- Tab title for courseware section -->
-    <string name="tab_label_courseware">Courseware</string>
+    <string name="tab_label_courseware">课件</string>
     <!-- Tab title for course announcements section -->
-    <string name="tab_label_announcement">Announcements</string>
+    <string name="tab_label_announcement">公告</string>
     <!-- Tab title for course handouts section -->
-    <string name="tab_label_handouts">Handouts</string>
+    <string name="tab_label_handouts">讲义</string>
     <!-- Tab title for course info section -->
-    <string name="tab_label_course_info">Course Info</string>
+    <string name="tab_label_course_info">课程信息</string>
     <!-- Button for last accessed course section. Will be followed by course name -->
-    <string name="last_accessed">Last Accessed</string>
+    <string name="last_accessed">最后访问</string>
     <!-- Label shown when no courseware content is available -->
-    <string name="no_chapter_text">No courseware is currently available.</string>
+    <string name="no_chapter_text">当前没有可用课件。</string>
     <!-- Label shown when user is enrolled in no courses -->
-    <string name="no_courses_to_display">You have not registered for any courses</string>
+    <string name="no_courses_to_display">你还没有注册任何课程</string>
     <!-- Label shown when no announcements are available for a course -->
-    <string name="no_announcements_to_display">There are currently no announcements for this course.</string>
+    <string name="no_announcements_to_display">当前没有该课程公告。</string>
     <!-- Label shown when no handouts are available for a course -->
-    <string name="no_handouts_to_display">There are currently no handouts for this course.</string>
+    <string name="no_handouts_to_display">当前没有该课程讲义。</string>
     <!-- Label shown when there is no course information available for a course -->
-    <string name="no_information_to_display">Additional course information is currently unavailable.</string>
+    <string name="no_information_to_display">当前没有该课程的额外信息。</string>
 
     <!-- Assessment -->
     <!-- Label default unit on assessment navigation bar-->
-    <string name="assessment_next_unit">Next Unit</string>
+    <string name="assessment_next_unit">下一单元</string>
     <!-- Label showing prvious on assessment navigation bar-->
-    <string name="assessment_previous_unit">Previous Unit</string>
+    <string name="assessment_previous_unit">上一单元</string>
 
     <!-- Label for mode switch menu item-->
-    <string name="assessment_video_only">Video Only</string>
+    <string name="assessment_video_only">包含视频</string>
     <!-- Label for mode switch menu item-->
-    <string name="assessment_full_course">Full Course</string>
+    <string name="assessment_full_course">全部课程</string>
 
     <!-- Label for empty video in video only mode-->
     <string name="assessment_empty_video_info">There are no videos in this section. To view other section content, select the Video icon above and switch to full course mode.</string>
@@ -269,13 +269,13 @@
     <!-- Label showing assessment only available on website-->
     <string name="assessment_explore_on_web">Explore other parts of this course or view this on web.</string>
     <!-- Button to show wiew on web for assessment-->
-    <string name="assessment_view_on_web">View on Web</string>
+    <string name="assessment_view_on_web">浏览器上查看</string>
     <!-- Label for homework for assessment-->
-    <string name="assessment_homework">Homework</string>
+    <string name="assessment_homework">家庭作业</string>
     <!-- Label to show empty assessment -->
     <string name="assessment_empty">There are no learning material in this section.</string>
     <!-- Label to show empty assessment -->
-    <string name="assessment_empty_coming_soon">Coming soon.</string>
+    <string name="assessment_empty_coming_soon">敬请期待。</string>
 
     <!-- Label to show empty transcript -->
     <string name="assessment_empty_transcript">This video\'s transcript is not available yet.</string>
@@ -286,94 +286,94 @@
 
     <!-- Video List -->
     <!-- Label shown to indicate video currently downloading -->
-    <string name="started_downloading">Downloading</string>
+    <string name="started_downloading">下载中</string>
     <!-- Title of video download screen -->
-    <string name="title_download">Downloads</string>
+    <string name="title_download">下载</string>
 
     <!-- MyVideos -->
     <!-- Title of all videos section -->
-    <string name="my_all_videos">All Videos</string>
+    <string name="my_all_videos">所有视频</string>
     <!-- Title of recent videos section -->
-    <string name="my_recent_videos">Recent Videos</string>
+    <string name="my_recent_videos">最近的视频</string>
     <!-- Label indicating user has no internet connection -->
-    <string name="offline_text">Offline Mode</string>
+    <string name="offline_text">离线模式</string>
     <!-- Label shown in videos section when user has no videos downloaded -->
-    <string name="no_videos_to_display">You haven\'t downloaded any videos.</string>
+    <string name="no_videos_to_display">你还没有下载任何视频。</string>
 
     <!-- My Downloads -->
     <!-- Message indicating videos downloaded -->
     <plurals name="text_download_msg">
-        <item quantity="one">Video Downloaded</item>
-        <item quantity="other">Videos Downloaded</item>
+        <item quantity="one">已下载视频</item>
+        <item quantity="other">已下载视频</item>
     </plurals>
     <!-- Button action label to view an item -->
-    <string name="view_button_text">View</string>
+    <string name="view_button_text">查看</string>
     <!-- Error text when downloading an item fails -->
-    <string name="download_failed_text">Download Failed</string>
+    <string name="download_failed_text">下载失败</string>
     <!-- Message indicating a number of videos has begun. Argument is a number -->
     <plurals name="downloading_count_videos">
-        <item quantity="zero">Download Failed</item>
-        <item quantity="one">Downloading {quantity} video</item>
-        <item quantity="other">Downloading {quantity} videos</item>
+        <item quantity="zero">下载失败</item>
+        <item quantity="one">正在下载{quantity}个视频</item>
+        <item quantity="other">正在下载{quantity}个视频</item>
     </plurals>
     <!-- Alert dialog title to confirm download of a large quantity of data -->
-    <string name="download_exceed_title">Large Download</string>
+    <string name="download_exceed_title">大流量下载</string>
 
     <!-- Alert dialog text at end of video -->
-    <string name="title_lecture_complete">You\'ve reached the end of this video.</string>
+    <string name="title_lecture_complete">你已达到视频结尾。</string>
     <!-- Alert dialog prompt at end of video. -->
-    <string name="msg_lecture_complete">Would you like to watch the next video?</string>
+    <string name="msg_lecture_complete">是否观看下一个视频？</string>
 
 
     <!-- Message shown video download in process -->
-    <string name="video_download_in_progress">Video Downloads in Progress</string>
+    <string name="video_download_in_progress">视频下载中</string>
 
     <!-- Message shown a single video download begins -->
-    <string name="msg_started_one_video_download">"Downloading 1 Video"</string>
+    <string name="msg_started_one_video_download">"下载1个视频"</string>
     <!-- Error shown when video download fails -->
-    <string name="msg_video_not_downloaded">"Unable to download video"</string>
+    <string name="msg_video_not_downloaded">"无法下载视频"</string>
     <!-- Error shown when video download fails -->
-    <string name="msg_video_not_available">This video is currently unavailable.\nCheck back again later.</string>
+    <string name="msg_video_not_available">该视频当前不可用。\n请稍后尝试。</string>
     <!-- Error shown when video has flag to indicate it is not available for mobile app -->
-    <string name="video_only_on_web_label">This video is currently only on web. Click to view on web.</string>
+    <string name="video_only_on_web_label">该视频当前只支持浏览器查看，请前往浏览器查看。</string>
     <!-- Message to indicate the it is not available for mobile app  -->
-    <string name="video_only_on_web_short">This video can only be played in a browser</string>
+    <string name="video_only_on_web_short">该视频只支持在浏览器播放</string>
     <!-- Alert dialog title when login fails -->
-    <string name="login_error">Sign-in Error</string>
+    <string name="login_error">登录错误</string>
     <!-- Alert dialog title when login fails due to lack of internet -->
-    <string name="no_connectivity">Connection Error</string>
+    <string name="no_connectivity">连接错误</string>
     <!-- Visual separator like A | B -->
     <string name="or_symbol"> | </string>
 
     <!-- Wifi New Message -->
     <!-- Toggle to allow downloads using cellular data -->
-    <string name="allow">Allow</string>
+    <string name="allow">允许</string>
     <!-- Toggle to disallow downloads using cellular data -->
-    <string name="do_not_allow">Don\'T allow</string>
+    <string name="do_not_allow">不允许</string>
 
     <!-- Player Settings -->
     <!-- Label for closed captions in video player -->
-    <string name="lbl_closed_caption">Closed Captions</string>
+    <string name="lbl_closed_caption">关闭字幕</string>
     <!-- Label for speed in video player -->
-    <string name="lbl_video_speed">Video Speed</string>
+    <string name="lbl_video_speed">播放速度</string>
     <!-- Label for no closed captions selected -->
-    <string name="lbl_cc_cancel">None</string>
+    <string name="lbl_cc_cancel">无</string>
 
     <!-- My Group Strings -->
     <!-- Label for group name field in study group creation screen -->
-    <string name="header_group_name">Group Name</string>
+    <string name="header_group_name">小组名称</string>
     <!-- Hint text for group name field in study group creation screen -->
-    <string name="hint_group_name">Enter Group Name</string>
+    <string name="hint_group_name">输入小组名称</string>
     <!-- Label for description field in study group creation screen -->
-    <string name="header_group_desc">Group Description (optional)</string>
+    <string name="header_group_desc">小组描述（可选）</string>
     <!-- Hint text for description field in study group creation screen -->
-    <string name="hint_group_desc">Enter Group Description</string>
+    <string name="hint_group_desc">输入小组描述信息</string>
     <!-- Disclaimer message shown when creating a new study group -->
     <string name="create_group_disclaimer">Creating an edX group will also create a Facebook group. The group discussion can only be seen by group members.</string>
     <!-- Next button for creating a study group -->
-    <string name="create_group_next">Next</string>
+    <string name="create_group_next">下一个</string>
     <!-- Label indicating social feature provider (like facebook) username when creating a study group -->
-    <string name="connected_as">Connected as {username}</string>
+    <string name="connected_as">通过账号{username}连接</string>
     <!-- Button allowing a user to open a study group from within facebook -->
     <string name="open_study_group">Open study group in facebook</string>
 
@@ -407,21 +407,21 @@
     <!-- Message shown after creating a study group -->
     <string name="group_created">Group Created</string>
     <!-- Message shown after inviting friends to a study group -->
-    <string name="friends_invited">Friends Invited</string>
+    <string name="friends_invited">已邀请好友</string>
     <!-- Button title for action that allows users to share this app -->
-    <string name="btn_share_app">Tell your friends about edX</string>
+    <string name="btn_share_app">与好友分享RuijieMooc</string>
     <!-- Header for social friends list -->
-    <string name="friends_with_edx_accounts">Friends with edX accounts</string>
+    <string name="friends_with_edx_accounts">RuijieMooc账号好友</string>
     <!-- Header for friends search -->
-    <string name="search_results">Search results</string>
+    <string name="search_results">搜索结果</string>
     <!-- Button allowing a user to search for friends -->
-    <string name="friends_search">Search</string>
+    <string name="friends_search">搜索</string>
     <!-- Button text to complete an action -->
-    <string name="done_text">Done</string>
+    <string name="done_text">完成</string>
     <!-- Label indicating unread actions. Argument is a count -->
     <string name="unread_text">{unread_count} Unread</string>
     <!-- Label indicating number of members in a study group Argument is a count -->
-    <string name="group_summary_count">Group Members ({members})</string>
+    <string name="group_summary_count">组员({members})</string>
     <!-- Label indicating a user has no friends in a study group -->
     <string name="group_summary_no_friends">You do not have any friends in this group</string>
     <!-- Alert dialog title when a user without facebook performs an action that requires Facebook -->
@@ -434,9 +434,9 @@
     <!-- My Groups -->
 
     <!-- Button label to bring up course finder -->
-    <string name="find_course_text">Looking for a new challenge?</string>
+    <string name="find_course_text">寻找新的挑战？</string>
     <!-- Button label to bring up course finder -->
-    <string name="find_course_btn_text">Find a mobile-friendly course</string>
+    <string name="find_course_btn_text">查找移动端适配版视频</string>
     <!-- Button label to bring up course finder -->
     <string name="signin_with_text">signing in to this app in with</string>
     <!-- Message between sign in button and social login buttons -->
@@ -446,63 +446,63 @@
     <!-- Google login method -->
     <string name="google_text">Google</string>
     <!-- Message on course list -->
-    <string name="course_not_listed_text">Don\'t see one of your courses?</string>
+    <string name="course_not_listed_text">没看到你的任何课程？</string>
     <!-- Message on course page for course that hasn't started -->
     <string name="course_content_available_text">This course hasn\'t started yet. Come back on {start_time} to see your videos.</string>
     <!-- Button text, allowing user to open the edx website in a web browser -->
-    <string name="open_edx_btn_text">Open edx.org in my browser</string>
+    <string name="open_edx_btn_text">在浏览器打开RuijieMooc</string>
     <!-- Message shown when linking to the external course list when in app course registration is not enabled -->
-    <string name="find_courses_dialog_text_1">Our team is currently working hard to let you enroll in courses within the app.</string>
+    <string name="find_courses_dialog_text_1">目前，我们团队正在努力兼容App端课程注册功能。</string>
     <!-- Message shown when linking to the external course list when in app course registration is not enabled -->
-    <string name="find_courses_dialog_text_2">In the meantime, &lt;b&gt;you can enroll in courses through our website&lt;/b&gt; - you\'ll need to log in, enroll, and then return to the app when you\'re done.</string>
+    <string name="find_courses_dialog_text_2">同时，&lt;b&gt;你能够通过网页版进行课程注册&lt;/b&gt; - 在网页端完成登录，注册后返回App即可。</string>
     <!-- Title of find course screen -->
-    <string name="find_courses_title">Find Courses</string>
+    <string name="find_courses_title">查找课程</string>
     <!-- Message shown when attempting to find courses with no internet connection -->
     <string name="find_courses_offline_text">You are in offline mode.\nTo find courses, connect to the internet.</string>
     <!-- Prompt allowing user to choose email program -->
-    <string name="email_chooser_header">Send email using...</string>
+    <string name="email_chooser_header">发送邮件...</string>
     <!-- Error shown when user attempts to send email, but has no email app -->
-    <string name="email_client_not_present">No e-mail clients installed</string>
+    <string name="email_client_not_present">没有安装邮件客户端</string>
 
     <!-- Landing Activity text -->
     <!-- Prompt leading user to sign in screen -->
-    <string name="already_have_an_account">Already have an account? Sign in</string>
+    <string name="already_have_an_account">已有账号？登录</string>
     <!-- Prompt leading user to create account screen -->
-    <string name="sign_up_and_learn">Sign up and start learning</string>
+    <string name="sign_up_and_learn">注册并开始学习</string>
     <!-- In Sign up screen -->
-    <string name="sign_up_with">Sign up with</string>
+    <string name="sign_up_with">登录方式</string>
     <!-- In Sign up screen -->
-    <string name="or_sign_up_with_email">or sign up with email</string>
+    <string name="or_sign_up_with_email">或者使用邮箱注册</string>
 
     <!-- Registration Screen -->
     <!-- Create account agreement. Followed by list of agreement names like "End User License Agreement" -->
-    <string name="by_creating_account">By creating an edX account, you agree to the </string>
+    <string name="by_creating_account">创建RuijieMooc账号，你需要同意 </string>
     <!-- Button text allowing user to show hidden optional registration fields -->
-    <string name="show_optional_text">Show optional fields</string>
+    <string name="show_optional_text">显示可选项</string>
     <!-- Button text allowing user to hide visible optional registration fields -->
-    <string name="hide_optional_text">Hide optional fields</string>
+    <string name="hide_optional_text">隐藏可选项</string>
     <!-- Button text allowing user create an account -->
-    <string name="create_account_text">Create my account</string>
+    <string name="create_account_text">创建账户</string>
     <!-- Text shown while waiting for registration request -->
-    <string name="creating_account_text">Creating account...</string>
+    <string name="creating_account_text">创建账户...</string>
     <!-- Registration screen title -->
-    <string name="register_title">Sign up for edX</string>
+    <string name="register_title">注册RuijieMooc</string>
     <!-- Text for successful registration with social token  -->
     <string name="sign_up_with_facebook_ok">You\'ve successfully signed in with Facebook.</string>
     <string name="sign_up_with_google_ok">You\'ve successfully signed in with Google.</string>
     <string name="sign_up_with_social_ok">We just need a little more information before you start learning with edX.</string>
     <!-- Continue registration after social login -->
-    <string name="complete_registration">Complete your registration</string>
+    <string name="complete_registration">完成注册</string>
     <!-- Message shown when enrolling in a course fails-->
-    <string name="enrollment_failure">We could not enroll you in this course at this time.</string>
+    <string name="enrollment_failure">当前无法让你注册该课程。</string>
     <!-- Alert dialog button allowing user to repeat their attempted action -->
-    <string name="try_again">Try Again</string>
+    <string name="try_again">再次尝试</string>
     <!-- Floating overlay text shown to user when they succeed at enrolling in a course -->
-    <string name="you_are_now_enrolled">You have enrolled in this course</string>
+    <string name="you_are_now_enrolled">你已成功注册该课程</string>
     <!-- Error shown user attempts to enroll in a course they are already enrolled in -->
-    <string name="already_enrolled">You are already enrolled in this course</string>
+    <string name="already_enrolled">你已注册该课程</string>
     <!-- Error shown when registering an account fails -->
-    <string name="sign_up_error">Your account could not be created. Try again later.</string>
+    <string name="sign_up_error">账号创建失败。稍后再次尝试。</string>
 
     <!-- data charges may apply dialog text -->
     <!-- Alert dialog title shown for users whose in app data is zero rated, when they follow a link outside the app -->
@@ -511,27 +511,27 @@
     <string name="open_external_url_desc">This link will open in your mobile browser, and you may incur additional data charges.</string>
 
     <!-- Message shown when user tries to view course handouts, but none are loaded and the user is offline -->
-    <string name="offline_handouts_text">You are in offline mode. To view handouts, connect to the internet.</string>
-    <string name="android">Android</string>
+    <string name="offline_handouts_text">你处于离线模式。如需查看讲义，请连接网络。</string>
+    <string name="android">安卓</string>
 
     <!--  Email subject line when user attempts to submit feedback about the app -->
-    <string name="email_subject">Customer Feedback</string>
+    <string name="email_subject">用户反馈</string>
 
     <!-- Message indicating num of video deleted-->
     <plurals
         name="deleted_video">
         <!-- Message indicating one video deleted. {video_count} is 1-->
-        <item quantity="one">{video_count} video deleted </item>
+        <item quantity="one">已删除{video_count}个视频</item>
         <!-- Message indicating more than one video deleted. {video_count} is number of videos deleted-->
-        <item quantity="other">{video_count} videos deleted</item>
+        <item quantity="other">已删除{video_count}个视频</item>
     </plurals>
 
     <!-- Notification related -->
     <!-- Template for notification title -->
-    <string name="COURSE_ANNOUNCEMENT_NOTIFICATION_TITLE">New Announcement</string>
+    <string name="COURSE_ANNOUNCEMENT_NOTIFICATION_TITLE">新建公告</string>
     <!-- toggle between subscribe and unsubscribe to course announcement -->
-    <string name="notification_toggle">Notifications</string>
+    <string name="notification_toggle">通知</string>
     <!-- Placeholder title for course content with no title -->
-    <string name="untitled_block">Untitled</string>
+    <string name="untitled_block">无标题</string>
 
 </resources>

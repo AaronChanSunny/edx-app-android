@@ -8,12 +8,12 @@
 
     <ImageView
         android:id="@+id/edx_logo"
-        android:layout_width="wrap_content"
+        android:layout_width="90dp"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="40dp"
         android:contentDescription="@string/app_name"
-        android:src="@drawable/edx_logo"/>
+        android:src="@drawable/edx_logo_login"/>
 
     <RelativeLayout
         android:id="@+id/bottom_layout"
